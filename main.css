@@ -1,11 +1,31 @@
 /* Declare global variable for colors */
 :root {
   --bg-dark: #121212;
+  --bg-medium: #1E1E1E;
   --text-light: #E0E0E0;
+  --accent-red: #8B0000;
 }
 
 body {
   background-color: var(--bg-dark);
   color: var(--text-light);
+  /* Keep looking for fonts */
   font-family: sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h2 {
+  color: var(--accent-red)
+}
+
+/* doesn't look all that good, works for now but put projects into seperate container maybe and stuff like that */
+.container {
+  background-color: var(--bg-medium);
+  border-radius: 16px;
+  width: 100%;
+  padding: 50px;
 }
