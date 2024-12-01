@@ -1,7 +1,11 @@
+/* Declare global variable for colors */
 :root {
   --bg-dark: #121212;
+  --text-light: #E0E0E0;
 }
 
 body {
   background-color: var(--bg-dark);
+  color: var(--text-light);
+  font-family: sans-serif;
 }
